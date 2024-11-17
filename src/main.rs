@@ -5,4 +5,7 @@ fn main() {
     my_vec.push(name1);
     my_vec.push(name2);
     println!("{:?}", my_vec);
+
+    let my_vec = vec![8, 10, 10];
+    println!("{:?}", my_vec);
 }
