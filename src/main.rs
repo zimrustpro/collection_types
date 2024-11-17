@@ -8,4 +8,12 @@ fn main() {
 
     let my_vec = vec![8, 10, 10];
     println!("{:?}", my_vec);
+
+    let vec_of_ten = vec![1,2,3,4,5,6,7,8,9,10];
+
+    let three_to_five = &vec_of_ten[2..5];
+    println!("{:?}", three_to_five);
+
+    let start_at_two = &vec_of_ten[1..];
+    println!("{:?}", start_at_two);
 }
