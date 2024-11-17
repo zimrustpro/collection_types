@@ -15,4 +15,8 @@ fn main() {
         random_tuple.3,
         random_tuple.4,
         random_tuple.5, );
+
+    let strings = ("one".to_string(), "two".to_string(), "three".to_string());
+    let (_a, b, _c) = strings;
+    println!("{b}");
 }
