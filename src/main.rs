@@ -16,4 +16,10 @@ fn main() {
 
     let start_at_two = &vec_of_ten[1..];
     println!("{:?}", start_at_two);
+
+    let my_vec: Vec<u8> = [1,2,3].into();
+    println!("{:?}", my_vec);
+
+    let my_vec2: Vec<_> = [9,0,10].into();
+    println!("{:?}", my_vec2);
 }
